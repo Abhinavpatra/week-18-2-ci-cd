@@ -24,8 +24,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile.user
         push: true
-        tags: abhinavpatra/week18  # Replace with your Docker Hub username and repository
+        tags: abhinavpatra/week18
 
     - name: Verify Pushed Image
-      run: docker pull abhinavpatra/week18  # Replace with your Docker Hub username and repository
-
+      run: docker pull abhinavpatra/week18
